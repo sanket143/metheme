@@ -1,8 +1,22 @@
-ul {
-  list-style: none;
+ul.post-list {
   padding: 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: white;
 }
 
 .page-content {
-  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+
+  .wrapper {
+    width: 750px;
+  }
 }
