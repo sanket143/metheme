@@ -1,0 +1,24 @@
+title: Sanket Chaudhari
+author:
+  name: Sanket Chaudhari
+  email: chaudharisanket2000@gmail.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: jekyllrb
+    github:  jekyll
+ 
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
